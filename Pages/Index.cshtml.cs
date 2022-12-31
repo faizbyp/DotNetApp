@@ -10,7 +10,7 @@ namespace DotNetApp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         public JsonFileProductService ProductService { get; }
-        public IEnumerable<Product>? Products { get; private set; }
+        public IEnumerable<Product>? Products { get; private set; } // List yg di-GET oleh foreach di index
 
         public IndexModel(
             ILogger<IndexModel> logger,

@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Home page";
 }
+@* LAYOUT ada di Pages/Shared/_Layout.cshtml *@
 
 <div class="text-center">
     <h1 class="display-4">DotNetApp</h1>
@@ -10,8 +11,15 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-@foreach (var product in Model.Products)
-{
-    <h3>@product.Title</h3>
-    <img src="@product.Image" width="100px"></img>
-}
+@* STYLING: css razor pada .net core ada di wwwroot/css/site.css *@
+<div class="card-columns row row-cols-3 row-cols-md-3 row-cols-sm-2 g-4">
+    @foreach (var product in Model.Products)
+    {
+        <div class="card ">
+            <img src="@product.Image" alt="Pic of @product.Title">
+            <div class="card-body">
+                <h5 class="card-title">@product.Title</h5>
+            </div>
+        </div>
+    }
+</div>

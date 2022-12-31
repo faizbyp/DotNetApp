@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\data\\product.json",
-      "PackagePath": "staticwebassets\\data\\product.json"
+      "Id": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\data\\products.json",
+      "PackagePath": "staticwebassets\\data\\products.json"
     },
     {
       "Id": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\favicon.ico",

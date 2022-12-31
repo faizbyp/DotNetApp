@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RpAnX/ZSWE3E3J7tZz3XSzpPRo0NfrYL/7eq/z95tkI=",
+  "Hash": "TCqGCX+IaSTAerMS9/3Vwp7aU5o82v/cTvA9urwWsPg=",
   "Source": "DotNetApp",
   "BasePath": "_content/DotNetApp",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\data\\product.json",
+      "Identity": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\data\\products.json",
       "SourceId": "DotNetApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\",
       "BasePath": "_content/DotNetApp",
-      "RelativePath": "data/product.json",
+      "RelativePath": "data/products.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\data\\product.json"
+      "OriginalItemSpec": "wwwroot\\data\\products.json"
     },
     {
       "Identity": "C:\\Users\\Faiz\\Documents\\coding\\DotNetApp\\wwwroot\\favicon.ico",
